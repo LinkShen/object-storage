@@ -42,6 +42,7 @@ def parseFile(prefix, desFile):
 ### main
 f = file('result.csv', 'wb')
 parseFile('read', f)
+parseFile('write', f)
 f.close()
 
 
